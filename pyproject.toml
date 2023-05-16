@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "demo-streamlit-proj"
+version = "0.1.0"
+description = ""
+authors = ["Varun Prasannan <vprasannan4@gmail.com>"]
+readme = "README.md"
+packages = [{include = "demo_streamlit_proj"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
