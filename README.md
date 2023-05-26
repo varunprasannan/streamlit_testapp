@@ -10,4 +10,4 @@ Once installed, ```cd``` to the project directory and run the following command:
 ```poetry install```
 
 Once all the dependencies are installed, you can run the project using the command:
-```poetry run streamlit uber_pickups.py```
+```poetry run streamlit run uber_pickups.py```
